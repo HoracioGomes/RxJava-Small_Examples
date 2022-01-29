@@ -30,7 +30,7 @@ public class MainActivitySkipOperator extends AppCompatActivity {
 
                     @Override
                     public void onNext(@NonNull Integer integer) {
-                        Log.d(TAG, "Distincts: " + integer);
+                        Log.d(TAG, "remainder: " + integer);
                     }
 
                     @Override
